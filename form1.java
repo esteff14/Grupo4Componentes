@@ -19,7 +19,7 @@ public class form1 {
                     frame2.setContentPane(new form2().pantalla);
                     frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                     frame2.setLocationRelativeTo(Main.frame);
-                    frame2.setSize(400,400);
+                    frame2.setSize(600,450);
                     frame2.setVisible(true);
                     Main.frame.dispose();
                 }else {

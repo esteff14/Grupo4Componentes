@@ -8,7 +8,7 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
         frame.getContentPane().setBackground(Color.LIGHT_GRAY);
-        frame.setSize(400,400);
+        frame.setSize(500,500);
         frame.setVisible(true);
     }
 }

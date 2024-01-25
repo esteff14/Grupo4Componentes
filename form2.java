@@ -74,6 +74,14 @@ public class form2 {
                         textArea.setFont(new Font("Size12",Font.PLAIN,12));
                     }else if (seleccionado==2) {
                         textArea.setFont(new Font("Size14",Font.PLAIN,14));
+                    }else if (seleccionado==3) {
+                        textArea.setFont(new Font("Size16",Font.PLAIN,16));
+                    }else if (seleccionado==4) {
+                        textArea.setFont(new Font("Size18",Font.PLAIN,18));
+                    }else if (seleccionado==5) {
+                        textArea.setFont(new Font("Size20",Font.PLAIN,20));
+                    }else if (seleccionado==6) {
+                        textArea.setFont(new Font("Size22",Font.PLAIN,22));
                     }
                 }
             }
@@ -87,7 +95,7 @@ public class form2 {
                 JScrollPane scrollPane = new JScrollPane(table);
                 frame.setLocationRelativeTo(form1.frame2);
                 frame.getContentPane().add(scrollPane);
-                frame.setSize(200,250);
+                frame.setSize(400,250);
                 frame.setVisible(true);
             }
         });
